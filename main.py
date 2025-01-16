@@ -4,9 +4,28 @@
 import pandas as pd
 
 tabela = pd.read_csv("clientes.csv")
-print(tabela)
+
 
 # Passo 2: Preparar a base de dados para a IA
+print(tabela)
+
+# LabelEncoder
+from sklearn.preprocessing import LabelEncoder
+
+# Profissão
+
+# cientista - 1
+# bombeiro - 2
+# engenheiro - 3
+# dentista - 4
+# artista - 5
+
+
+# engenheiro
+# dentista
+# artista 
+
+
 # Passo 3: Treinar a IA -> Criar o modelo: Nota de crédito: Boa, Ok, Ruim
 # Passo 4: Escolher qual o melhor modelo
 # Passo 5: Usar a IA para fazer novas previsões
@@ -14,3 +33,4 @@ print(tabela)
 #pandas e scikit-learn é para usar a IA
 
 #Score de crédito = Nota de crédito
+
