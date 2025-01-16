@@ -44,7 +44,20 @@ from sklearn.model_selection import train_test_split
 
 x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size=0.3)
 
-# Passo 3: Treinar a IA -> Criar o modelo: Nota de crédito: Boa, Ok, Ruim
+# Passo 3: Treinar a IA -> Criar o modelo: 
+# Nota de crédito: Boa, Ok, Ruim
+
+# Importar a IA 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+
+# Criar a IA
+modelo_arvoredecisao = RandomForestClassifier()
+modelo_knn = KNeighborsClassifier()
+
+# Treinar a IA
+modelo_arvoredecisao.fit(x_treino, y_treino)
+modelo_knn.fit(x_treino, y_treino)
 
 
 # Passo 4: Escolher qual o melhor modelo
