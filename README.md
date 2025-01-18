@@ -1,4 +1,4 @@
-# Análise de Score de Crédito com IA  - Jornada Python
+# Análise de Score de Crédito com IA  - Jornada Python 3
 
 Este projeto utiliza inteligência artificial para analisar o score de crédito de clientes, classificando o histórico financeiro em três categorias: **Bom**, **Ok** ou **Ruim**. A análise é baseada em dados fornecidos e utiliza algoritmos de machine learning para realizar predições com base no histórico financeiro.
 
